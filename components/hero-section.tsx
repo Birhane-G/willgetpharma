@@ -5,11 +5,11 @@ import { ChevronRight } from "lucide-react"
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="hero-section">
       {/* Background image with overlay */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 top-0">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+            src="/images/pharma.jpg"
           alt="Pharmacy background"
           fill
           priority
@@ -19,7 +19,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 px-4 py-20 md:py-28 lg:py-36">
+      <div className="container relative z-10 pt-3 pb-20 lg:pb-36">
         <div className="grid gap-8 lg:grid-cols-2 items-center">
           <div className="flex flex-col justify-center space-y-6 text-white">
             <div className="inline-block rounded-full bg-white/20 px-4 py-1.5 text-sm font-medium backdrop-blur-sm">
