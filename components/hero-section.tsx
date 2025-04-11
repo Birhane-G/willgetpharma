@@ -6,7 +6,6 @@ import { ChevronRight } from "lucide-react"
 export default function HeroSection() {
   return (
     <section className="hero-section">
-      {/* Background image with overlay */}
       <div className="absolute inset-0 z-0 top-0">
         <Image
             src="/images/pharma.jpg"
@@ -18,7 +17,6 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/60" />
       </div>
 
-      {/* Content */}
       <div className="container relative z-10 pt-3 pb-20 lg:pb-36">
         <div className="grid gap-8 lg:grid-cols-2 items-center">
           <div className="flex flex-col justify-center space-y-6 text-white">
@@ -62,8 +60,6 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-
-      {/* Wave shape divider */}
       <div className="absolute bottom-0 left-0 right-0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" className="w-full h-auto">
           <path
